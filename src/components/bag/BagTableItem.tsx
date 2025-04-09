@@ -20,7 +20,7 @@ const BagTableItem: React.FC<BagTableItemPropType> = ({ item }) => {
       </td>
       <td className="p-2">{item.item_name}</td>
       <td className="p-2">
-        ₹{item.current_price}{" "}
+        ₹{item.current_price}
         <span className="line-through text-gray-400 text-xs ml-1">
           ₹{item.original_price}
         </span>
