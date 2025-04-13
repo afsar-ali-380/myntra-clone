@@ -5,7 +5,7 @@ const itemSlice = createSlice({
   name: "items",
   initialState: DEFAULT_ITEMS,
   reducers: {
-    addInitialItem: (store, action) => {
+    addInitialItem: (store) => {
       return store;
     },
   },
